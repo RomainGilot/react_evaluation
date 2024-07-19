@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { formatDate } from "../utils/formatDate";
+import { formatDate } from "../../../utils/formatDate";
 
 export default function Carousel() {
   const [conferences, setConferences] = useState([]);

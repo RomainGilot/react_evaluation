@@ -1,6 +1,6 @@
 import LayoutPage from "../../shared/LayoutPage";
 import TitlePage from "../../shared/TitlePage";
-import Carousel from "../../shared/Carousel";
+import Carousel from "./components/Carousel";
 
 export default function Home() {
   return (
