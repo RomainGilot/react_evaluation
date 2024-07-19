@@ -135,6 +135,7 @@ export default function ConferenceManagerCreate() {
             <input
               name="title"
               type="text"
+              required
               value={formData.title}
               onChange={handleChange}
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -145,6 +146,7 @@ export default function ConferenceManagerCreate() {
             <textarea
               name="description"
               value={formData.description}
+              required
               onChange={handleChange}
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
@@ -154,6 +156,7 @@ export default function ConferenceManagerCreate() {
             <DatePicker
               selected={formData.date}
               onChange={handleDateChange}
+              required
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               dateFormat="Pp"
             />
@@ -165,6 +168,7 @@ export default function ConferenceManagerCreate() {
               type="text"
               value={formData.img}
               onChange={handleChange}
+              required
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
           </div>
@@ -174,6 +178,7 @@ export default function ConferenceManagerCreate() {
               name="content"
               value={formData.content}
               onChange={handleChange}
+              required
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
           </div>
@@ -182,6 +187,7 @@ export default function ConferenceManagerCreate() {
             <input
               name="addressl1"
               type="text"
+              required
               value={formData.addressl1}
               onChange={handleChange}
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -202,6 +208,7 @@ export default function ConferenceManagerCreate() {
             <input
               name="city"
               type="text"
+              required
               value={formData.city}
               onChange={handleChange}
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -213,6 +220,7 @@ export default function ConferenceManagerCreate() {
               name="postalCode"
               type="text"
               value={formData.postalCode}
+              required
               onChange={handleChange}
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
@@ -238,6 +246,7 @@ export default function ConferenceManagerCreate() {
               name="mainColor"
               type="color"
               value={formData.mainColor}
+              required
               onChange={handleChange}
               className="shadow appearance-none border rounded w-[50px] h-[50px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
@@ -248,6 +257,7 @@ export default function ConferenceManagerCreate() {
               name="secondColor"
               type="color"
               value={formData.secondColor}
+              required
               onChange={handleChange}
               className="shadow appearance-none border rounded w-[50px] h-[50px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
